@@ -32,8 +32,3 @@ variable "subnet_id" {
   type = string
   description = "the reosurce ID of the AzureBastionSubnet subnet"
 }
-
-variable "wrkldID" {
-  type        = string
-  description = "a name/tag/id for the workload being created"
-}
